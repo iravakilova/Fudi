@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    max-width: 1245px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(img/header-bg.png) no-repeat 50% 200%;
+    background-size: cover;
+}
+.header .header__top{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+.header .header__top img{
+    display: block;
+    height: 10px;
+    padding-left: 30px;
+}
+.header .header__top p{
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    padding-left: 30px;
+}
+.header .header__top .header__search{
+    margin-right: 20px;
+    width: 100%;
+    max-width: 180px;
+    min-height: 25px;
+    border: 1px solid #f5f5f5;
+    opacity: 0.83;
+}
+.header .header__top .header__search input[type="search"] {
+    border: none;
+    outline: none;
+    width: 87%;
+    vertical-align: middle;
+    background: transparent;
+}
+.header .header__top .header__search input[type="submit"] {
+    border: none;
+    background: url(img/search.png) no-repeat 100% 150%; 
+}
+.header .header__mine{
+    text-align: center;
+    padding: 280px 0 255px;
+}
+.header .header__mine span{
+    opacity: 0.75;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: "Lobster";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+    padding-bottom: 45px;
+    display: block;
+}
+.header .header__mine h1{
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 70px;
+    display: block;
+}
+.header .header__mine button{
+    border: 2px solid #310809;
+    background: transparent;
+}
+.header .header__mine button a{
+    text-decoration: none;
+    color: #350c0d;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21.18px;
+    text-transform: uppercase;
+    letter-spacing: 0.93px;
+    padding: 22px 63px 27px;
+    display: block;
+}
+.header .header__mine p{
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    padding-top: 40px;
+}
