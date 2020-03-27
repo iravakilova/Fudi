@@ -110,3 +110,57 @@
     letter-spacing: 0.7px;
     padding-top: 40px;
 }
+
+/* get  */
+
+.get{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.get__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.get__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato';
+}
+.get__img{
+    margin: 0 auto;
+      width: 107px;
+      height: 107px;
+      border: 2px solid #000;
+      border-radius: 50%;
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+}
+.get__img img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.get__item h2{
+    color: #000;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    padding-bottom: 30px;
+}
+.get__item p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
