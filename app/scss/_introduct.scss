@@ -1,0 +1,42 @@
+/* introduct */
+
+.introduct {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    padding: 36px 0;
+  }
+  
+  .introduct__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .introduct__article {
+      margin-left: 110px;
+      color: #000;
+      font-family: 'Lato';
+  
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+        padding-bottom: 30px;
+      }
+  
+      p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0.8px;
+        padding-bottom: 40px;
+      }
+  
+      .introduct__buttom {
+        padding-right: 10px;
+      }
+    }
+  }

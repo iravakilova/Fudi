@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    max-width: 1245px;
+    margin: 0 auto;
+}
+
+@import "header";
+@import "get";
+@import "introduct";
+@import "rewiew";
+@import "browse";
+@import "contact";
