@@ -4,7 +4,7 @@
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
-    background: url(img/header-bg.png) no-repeat 50% 200%;
+    background: url(/img/header-bg.png) no-repeat 50% 200%;
     background-size: cover;
   
     .header__top {
@@ -51,7 +51,7 @@
   
           &[type="submit"] {
             border: none;
-            background: url(img/search.png) no-repeat 100% 150%;
+            background: url(/img/search.png) no-repeat 100% 150%;
           }
         }
       }
@@ -108,7 +108,7 @@
       p {
         text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
         color: #ffffff;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 14px;
         font-weight: 400;
         line-height: 30px;
