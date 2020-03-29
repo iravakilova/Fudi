@@ -13,6 +13,15 @@
     justify-content: space-between;
     align-items: center;
   
+    // .introduct__img{
+      
+    //   img{
+    //     width: 100%;
+    //     max-width: 593px;
+    //     height: auto;
+    //   }
+    // }
+
     .introduct__article {
       margin-left: 110px;
       color: #000;
@@ -39,4 +48,47 @@
         padding-right: 10px;
       }
     }
+  }
+
+  @media only screen and (min-width : 320px) and (max-width : 480px){
+
+    .introduct {
+      min-width : 320px;
+      max-width : 480px;
+      padding: 50px 0;
+    }
+    
+    .introduct__inner {
+      flex-direction: column;
+      
+      .introduct__img{
+      
+        img{
+          width: 100%;
+          max-width: 593px;
+          height: auto;
+        }
+      }
+
+      .introduct__article {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    
+        h2 {
+          font-size: 12px;
+          padding-bottom: 10px;
+        }
+    
+        p {
+          font-size: 11px;
+          padding-bottom: 10px;
+        }
+    
+        .introduct__buttom {
+          padding-right: 0px;
+        }
+      }
+    }
+
   }
