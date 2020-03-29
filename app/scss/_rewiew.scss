@@ -196,3 +196,50 @@
 
 
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px){
+
+    .rewiew {
+      min-width : 768px;
+      max-width : 1024px;
+    
+      .rewiew__slider {
+        width: 90%;
+        max-width: 1245px;
+      }
+    }
+    
+    .rewiew .rewiew__inner {
+      width: 700px;
+      padding-top: 50px;
+    
+      .rewiew__slides {
+    
+        .rewiew__item {
+          width: 700px;
+          height: 360px;
+    
+          img {
+            padding-bottom: 25px;
+          }
+    
+          p {
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+    
+    #btn1:checked ~ .rewiew__inner .rewiew__slides {
+      transform: translate(0);
+    }
+    
+    #btn2:checked ~ .rewiew__inner .rewiew__slides {
+      transform: translate(-700px);
+    }
+    
+    #btn3:checked ~ .rewiew__inner .rewiew__slides {
+      transform: translate(-1400px);
+    }
+
+  }

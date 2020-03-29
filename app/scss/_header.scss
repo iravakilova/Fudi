@@ -179,3 +179,21 @@
     }
 
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px){
+
+    .header {
+      min-width: 768px;
+      max-width: 1024px;
+    
+      .header__top {
+        padding-top: 20px;
+        }
+    
+      .header__mine {
+        text-align: center;
+        padding: 150px 0;
+      }
+    }
+
+  }
